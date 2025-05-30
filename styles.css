@@ -1,0 +1,299 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.top-red-rectangle{
+    background-color: red;
+    width: 100%;
+    color:white;
+    height:30px;
+
+
+}
+.header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.left-section, .right-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  max-width: 700px;
+  margin: 0 40px;
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  padding: 8px 15px;
+}
+
+.search-section input {
+  flex-grow: 1;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  outline: none;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+}
+
+.menu {
+  width: 22px;
+}
+
+.account {
+  margin-left: 15px;
+}
+
+.right-section span {
+  margin: 0 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.hero-banner {
+  position: relative;
+  width: 100%;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: 500px;
+  display: block;
+}
+.hero-text {
+  position: absolute;
+  top: 50%; /* ⬅️ Was 20%, now 50% to push it down */
+  left: 5%;
+  transform: translateY(-50%); /* Optional: center it vertically based on its own height */
+  color: #004080;
+  max-width: 30%;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  font-size:3rem;
+
+}
+.hero-text>p{
+    font-size:24px;
+    margin-top:10px;
+
+}
+
+.hero-banner img {
+  width: 100%;
+  height: auto; /* Maintains aspect ratio */
+  display: block;
+  object-fit: cover; /* or try "contain" if you want the full image to show */
+}
+
+
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #333;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.red-section {
+  background-color: red; /* Or use #d50000 for Target Red */
+  padding: 40px;
+  text-align: center; /* Optional: to center content inside */
+}
+
+
+ .w-rect-1, .w-rect-2, .w-rect-3 {
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  background-color: white;
+  margin:10px;
+  border-radius: 10px;
+}
+   
+.blue-section{
+    background-color:skyblue;
+
+
+}
+
+
+
+.three-buttons{
+    background-color:skyblue;
+    padding:40px;
+
+
+
+}
+
+.first-button, .second-button,.third-button{
+    background-color:lightcyan  ;
+    width:100px;
+    height:auto;
+
+    display:inline-block;
+    margin-right:200px;
+    border-radius:10px;
+    width:100px;
+    height:auto;
+    text-align:center;
+
+
+
+}
+.second-button{
+    margin-left:100px;
+    background-color:lightcyan;
+    margin-right:100px;
+  
+
+
+
+}
+
+.third-button{
+    background-color:lightcyan;
+    margin-left:100px;
+    position:absolute;
+
+
+}
+
+.deep-blue-region{
+    background-color:  skyblue;
+    margin-top:10px;
+
+
+    padding:40px;
+
+
+
+}
+
+.heading{
+    text-align:center;
+
+}
+
+.first-image-last,
+.second-image-last {
+  display: inline-block;
+  height:200px;
+  width: 300px;
+  margin: 20px 40px;
+  vertical-align: top;
+}
+.first-image-last img,
+.second-image-last img{
+  width:400px;
+  height:250px;       
+  border-radius:12px;  
+  display:inline-block;
+  
+}
+.second-image-last{
+    margin-left:300px;
+
+}
+
+.deep-blue-region{
+    color:black;
+    background-color:deepskyblue;
+    height:600px;
+    width:100%;
+
+
+
+}
+.heading{
+    text-align:center
+}
+
+
+
+
+.first-image-last{
+    margin-left:0;
+
+}
+.w-rect-1>p{
+    margin-top:0
+
+}
+.w-rect-1>img{
+    height:100px;
+    width:150px;
+    font-weight: bold;
+}
+
+.first-cart{
+    background-color: rgb(198, 16, 16);
+    width:100px;
+    margin-left:50px;
+    text-align:center; 
+    color:white;
+    border-radius:5px;
+    
+}
+.w-rect-2>img{
+  height:100px;
+  width:150px;
+  margin-top:10px;
+
+
+
+}
+
+.second-cart{
+    background-color: rgb(198, 16, 16);
+    width:100px;
+    margin-left:50px;
+    text-align:center; 
+    color:white;
+    border-radius:5px;
+
+}
+
+.third-cart{
+  background-color: rgb(198, 16, 16);
+  width:100px;
+  margin-left:50px;
+  text-align:center;
+  color:white;
+  border-radius:5px;
+}
+
+.w-rect-3>img{
+  height:100px;
+  width:150px;
+  margin-top:10px;
+
+}
